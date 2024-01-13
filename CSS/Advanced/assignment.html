@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <style>
+        .box{
+            height: 500px;
+            width: 400px;
+            border: 2px solid orange;
+        }
+        .box>div{
+            height: 250px;
+        }
+        .box>div:first-child{
+            background-image: url(assets/images/Image1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        .box>div:first-child>section{
+            height: 100px;
+            width: 100px;
+            padding-top: 200px;
+        }
+        .box>div:first-child>section>img{
+            width: 100%;
+            border-radius: 100%;
+            border: 2px solid orange;
+            padding: 5px;
+        }
+        .box>div>img{
+            width: 100%;
+        }
+        .box>div:last-child{
+            padding:20px;
+        }
+        .box>div>button{
+            padding: 5px 30px;
+            background-color: transparent;
+            border: 2px solid orange;
+            border-radius: 10px;
+        }
+        .box>div>button:hover{
+            background-color:orange;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>ASSIGNMENT</h1>
+
+        <div class="box">
+            <div>
+                <section>
+                    <img src="assets/images/Image1.jpg" alt="">
+                </section>
+            </div>
+            <div>
+                <h3>Miss Mansi</h3>
+                <p>FULLSTACK DEVELOPER</p>
+
+                <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit. Repudiandae porro soluta praesentium inventore asperiores natus dolore excepturi recusandae, illo accusamus officiis optio consequatur? Aperiam eos autem excepturi. A,eos quo.</p>
+                <button>Edit</button>
+                <button>View More</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

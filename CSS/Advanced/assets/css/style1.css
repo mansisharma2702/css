@@ -1,0 +1,64 @@
+.title{
+  position: relative;
+  width: 1100;
+  padding: 20px;
+  justify-content: center;
+}
+.title .card{
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+.title:hover .card{
+  padding: 20px;
+  opacity: 0.5;
+}
+.title .card:hover{
+  padding: 20px;
+  opacity: 1;
+}
+.title .card .circle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #808080;
+  text-align: center;
+}  
+.title .card .circle h2{
+   color: #fff;
+   font-size: small;
+   padding: 30px;
+}
+.title .card .content{
+  position: absolute;
+  padding: 20px;
+  text-align: center;
+}
+.title .card .content p{
+  color: #ed08ed;
+}
+.title .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #808080;
+  color: #fff;
+  text-decoration: none;
+}
+.title .card:nth-child(1) .circle,
+.title .card:nth-child(1) .content a{
+  background: yellow;
+}
+.title .card:nth-child(2) .circle,
+.title .card:nth-child(2) .content a{
+  background: orchid;
+}
+.title .card:nth-child(3) .circle,
+.title .card:nth-child(3) .content a{
+  background: violet;
+}
